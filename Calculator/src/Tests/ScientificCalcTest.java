@@ -1,24 +1,13 @@
-/**
- * 
- */
 package Tests;
 
 import static org.junit.Assert.*;
-import ie.gcd.maths.Calc;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * @author Ronan
- *
- */
-public class CalcTest {
+public class ScientificCalcTest {
 
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@Before
 	public void setUp() throws Exception {
 	}
@@ -28,10 +17,8 @@ public class CalcTest {
 	}
 
 	@Test
-	public void testAdd() {
-		Calc c = new Calc();
-		assertEquals(5,c.add(2,3));
+	public void test() {
+		fail("Not yet implemented");
 	}
-
 
 }
